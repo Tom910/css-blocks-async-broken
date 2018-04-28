@@ -1,10 +1,12 @@
 import React from 'react';
-import styles from './Strong.block.css'
+import styles from './Strong.block.css';
 
-export default class Async extends React.Component {
+export default class Strong extends React.Component {
     render() {
-        <div sad="dsadadsadadwqeeqwrq">
-          asdadasa
-        </div>
+        return (
+            <div className={styles} sad="dsadadsadadwqeeqwrq">
+            asdadasa
+            </div>
+        )
     }
 }
